@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'todos/index'
   devise_for :users
   resources :items
   resources :roles
